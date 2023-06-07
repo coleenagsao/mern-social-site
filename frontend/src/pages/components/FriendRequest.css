@@ -1,0 +1,52 @@
+.friendRequest{
+    display: flex;
+}
+
+.friendRequestL{
+    margin-right: 15px;
+}
+
+.friendRequestImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.friendRequestbtns{
+    display:flex;
+    margin: 0px;
+}
+
+.confirmbtn {
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #6781f7;
+    height: 30px !important;
+    width: 100px !important;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 10px;
+    padding: 0px;
+    
+ }
+
+ .deletebtn {
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #a3b4fd;
+    height: 30px !important;
+    width: 100px !important;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 0px;
+    padding: 0px;
+ }

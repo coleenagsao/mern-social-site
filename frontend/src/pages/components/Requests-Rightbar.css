@@ -1,0 +1,69 @@
+.Rightbar {
+    flex: 2;
+    background-color: #192233;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #707D96;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    margin-left: 50px;
+    height: 43%;
+}
+
+.Title{
+    margin-bottom: 10px;
+    background-color: #192233;
+}
+
+
+/*People you may know*/
+.users{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+.usersC{
+    color: white;
+}
+
+.usersC span{
+    font-size: 12px;
+    color: #5e6674;
+}
+.usersL{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.addbtn {
+    color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #6781f7;
+    height: 30px !important;
+    width: 150px !important;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.addbtn:active{
+    width: 140px !important;
+}

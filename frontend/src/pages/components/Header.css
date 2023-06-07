@@ -1,0 +1,105 @@
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: #192233;
+    display: flex;
+    align-items: center;
+    position: sticky;   
+    top: 0;
+}
+
+.headerLeft{
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+}
+
+.logoImg{
+    align-items: center;
+    height: 35px;
+    margin-right: 10px !important;
+    padding-left: 20px;
+}
+
+.logoName{
+    color: white;
+}
+
+
+.headerCenter{
+    flex: 6.5;
+}
+
+.headerRight{
+    color: #707D96;
+    flex: 3;
+    align-items: center;
+    font-size: 18px;
+    text-align: right;
+    padding-right: 30px;
+    float: right;
+    
+}
+.headerRightContainer{
+    display: flex;
+    float: right;
+    align-items: center;
+}
+.headerUsername{
+    margin-right: 20px;
+}
+
+.searchBar{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #707D96;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.searchInput{
+    margin-left: 10px;
+    border: none;
+    background-color:  #192233;
+    height: 5px;
+    color: #707D96;
+}
+
+.searchInput::placeholder{
+    color: #707D96;
+    font-family: Heebo;
+}
+.searchInput:focus{
+    outline:none;
+    background-color:  #192233;
+    color: #707D96;
+}
+
+.headerIcons{
+    display: flex;
+    align-items: center;
+    
+}
+
+.headerIcon{
+    margin-right: 14px;
+    cursor: pointer;
+    position: relative;
+    left: 150px;
+}
+
+#logoutbtn:hover{
+    color: #6781f7;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+}

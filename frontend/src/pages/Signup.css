@@ -1,0 +1,151 @@
+.signup{
+    display: flex;
+    width: 100%;
+    height: 840px;
+    background-color: #192233;
+}
+
+.left{
+    flex: 3;
+    background-color: #6e3dc8;
+}
+
+.leftTitle{
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-right: 50px;
+    background-color: #6e3dc8;
+}
+
+.logo{
+    align-items: center;
+    height: 40px;
+    margin-left: 0px !important;
+    padding-bottom: 10px;
+}
+
+.valueProp{
+    color: white;
+    margin-right: 50px;
+}
+
+.cover{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.credit{
+    margin-left: 50px;
+    color: white;
+    font-style: bold;
+    
+}
+.creditArtist{
+    color: white;
+}
+.leftTitleArt{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.header{
+    display: flex;
+    float: center;
+}
+
+.right{
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+.rightTitle{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.partners{
+    display: flex;
+    align-items: center;
+}
+.partner{
+    display: flex;
+    flex-direction: column;
+}
+.partner:nth-child(1){
+    margin-right:10px;
+}
+
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    border: none;
+    background-color: #293856;
+    color: white;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+input:focus {
+    background-color: #293856;
+    color: white;
+    outline: 2px solid #6e3dc8;
+}
+
+label{
+    font-weight: bold;
+}
+button{
+    margin-top: 10px;
+    width: 40% !important; 
+    height: 40px;
+    border: none;
+    background-color: #6e3dc8;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+button:active{
+    background-color: white;
+    border: 2px solid #6e3dc8;
+    color: #6e3dc8;
+}
+
+.signinprompt{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #997fc8;
+    text-decoration: none;
+    
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h6{
+    margin-top: 30px;
+    color:  #8b97ae;
+}
+
+.error{
+    color: rgb(255, 133, 133);
+    font-size: 10px;
+}

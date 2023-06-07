@@ -1,0 +1,91 @@
+.Home {
+    display: flex;
+    background-color:  #192233;
+    overflow: hidden !important;
+}
+
+.Feed{
+    background-color: #212C42;
+    color: #707D96;
+    display: flex;
+    flex: 8;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 740px;
+    overflow: auto;
+    margin-right: 40px;
+}
+
+.Feed::-webkit-scrollbar {
+    width: 0px;
+}
+
+.NewPost{
+    border-radius: 10px;
+    width: 800px;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+}
+
+.NewPostContainer{
+    background-color:  #192233;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.NewPostDetails{
+    display: flex;
+    align-items: center;
+}
+
+.NewPostImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.NewPostInput{
+    padding-left: 15px;
+    color: #707D96;
+    border: none;
+    background-color: #192233;
+    border-radius: 50px;
+    width: 600px;
+    margin-right: -10px;
+}
+
+.NewPostInput::placeholder{
+    color: #707D96;
+    font-family: Heebo;
+    background-color:  #192233;
+}
+
+.NewPostInput:focus{
+    outline: none;
+    background-color: #192233;
+}
+
+button{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color:  #6E3dc8;
+    color: white;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+button:active{
+    margin-bottom: 10px;
+    border: 1px solid #db6ab5;
+    background-color:  #192233;
+    color: #707D96;
+    color: #db6ab5;
+}
+

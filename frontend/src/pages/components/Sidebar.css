@@ -1,0 +1,104 @@
+html{
+    background-color: #192233;
+}
+
+.Sidebar{
+    flex: 1.75;
+    background-color: #192233;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #707D96;
+    height: 740px;
+    
+    overflow: auto;
+}
+
+.Sidebar::-webkit-scrollbar {
+    width: 0px;
+}
+
+.userProfile{
+    display: flex;
+    align-items: center;
+}
+
+.userImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfo{
+    margin-left: 10px;
+}
+
+.userInfo h3 {
+    color: white;
+}
+
+.sidebarShortcuts{
+    margin-bottom: 25px;
+}
+
+.sidebarShortcuts h3{
+    margin-bottom: 10px;
+    font-weight: 700;
+    
+}
+
+.sidebarHr{
+    margin-top:20px;
+    margin-bottom: 20px;
+    border-color: #707D96
+
+}
+
+.sidebarLinks{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #707D96;
+}
+
+.sidebarLinks img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.sidebarLinks li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tags{
+    color: #6781f7;
+}
+.friendContainer{
+    height: 100%;
+}
+
+.friendTotal{
+    margin-bottom: 20px;
+}
+.friendList{
+    list-style: none;
+}
+
+.friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.friendName{
+    margin-left: 10px;
+}
+
+.Ad{
+    color: #707D96;
+}

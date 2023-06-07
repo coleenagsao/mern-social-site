@@ -1,0 +1,74 @@
+.AuthorImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.post{
+    margin-top: 20px;
+    background-color: #192233;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    align-items: center;
+}
+.postContainer{
+    padding: 20px;
+}
+
+.postTop{
+    display: flex;
+    place-content: end space-between;
+    margin-bottom: 10px;
+    color: #5e6674;
+}
+
+.postTopLeft{
+    display: flex;
+}
+
+.postAuthor{
+    margin-bottom: 3px;
+    color: white;
+    
+}
+.postTimeStamp{
+    font-weight: normal;
+    color: #5e6674;
+
+}
+
+.postContent{
+    font-size: 18px;
+    font-weight: normal;
+    color: #8b97ae;
+}
+
+Modal{
+    color: #8b97ae;
+}
+
+.newContent{
+    background-color: #212C42;
+    color: #707D96;
+    font-size: 16px;
+}
+
+.newContent:focus{
+    background-color: #212C42;
+    color: #707D96;
+    outline: none;
+}
+
+.postTopRight{
+    display: flex;
+}
+
+.postIcon{
+    margin-left: 10px;
+}
+
+.postIcon:hover{
+    color: #6781f7;
+}
