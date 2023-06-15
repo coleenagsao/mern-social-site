@@ -9,13 +9,12 @@ import setUpRoutes from "./routes.js";
 
 // connect to Mongo DB
 mongoose.connect(
-  "mongodb://localhost:27017/AUTH",
+  "mongodb://127.0.0.1:27017/AUTH",
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err) => {
     if (err) { console.log(err); }
     else { console.log("Successfully connected to Mongo DB"); }
   });
-
 
 // initialize the server
 const app = express();
