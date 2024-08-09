@@ -111,7 +111,7 @@ export default class Login extends Component {
         </div>
           <div className="right">
             <form className="signUpForm">
-              <h3 className="rightTitle">Log in to Bookscape</h3>
+              <h3 className="rightTitle">Log in to Bedev</h3>
               <label>Email</label>
               <input type="email" id="email" name="email" required></input>
               <br/>

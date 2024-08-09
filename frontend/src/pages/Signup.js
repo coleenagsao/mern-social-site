@@ -133,7 +133,7 @@ export default class Signup extends Component {
       </div>
         <div className="right">
           <form className="signUpForm">
-            <h1 className="rightTitle">Create your <br/>Bookscape Account</h1>
+            <h1 className="rightTitle">Create your <br/>Bedev Account</h1>
             <div className="partners">
               <div className="partner">
                 <label>First Name</label>
